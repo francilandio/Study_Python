@@ -4,12 +4,18 @@
 #       Gravar na variável <excesso> a quantidade de quilos além do limite e na variável <multa> o valor da multa que João deverá pagar. 
 #       Imprima os dados do programa com as mensagens adequadas.
 
+print('########## CALCULO DE PESO IDEAL POR SEXO ##########')
+print()
+
 peso = float(input('Qual o peso dos peixes? '))
-multa = float(4.00)
+multa = float(4)
 
 if peso > 50:
     excesso = peso - 50
     multa_pagar = excesso * multa
-    print(f'O peso dos peixes está {excesso} kg em excesso, você deverá pagar R${multa_pagar:.2f} de multa.')
+    print(f'O peso dos peixes excedeu {excesso} kg, você deverá pagar R${multa_pagar:.2f} pelo excesso.')
 else:
     print(f'O peso está dentro do limite permitido!')
+
+print()
+print('########## FIM ##########')
