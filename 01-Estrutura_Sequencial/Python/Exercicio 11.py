@@ -19,5 +19,5 @@ print(f'O produto do dobro de {numero_int_1} com metade de {numero_int_2} é {ca
 print(f'A soma do triplo de {numero_int_1} com {numero_float} é {calculo_2}')
 print(f'O número {numero_float} elevado ao cubo é {calculo_3:.2f}')
 
-print('########## FIM ##########')
 print()
+print('########## FIM ##########')
