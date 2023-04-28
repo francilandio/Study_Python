@@ -27,13 +27,11 @@ sindicato = salario_bruto * (5/100) # 5%
 salario_liquido = salario_bruto - ir - inss - sindicato
 
 print()
-print(f'Seu salário bruto foi de R$ {salario_bruto:.2f}')
-print()
-print(f'- IR (11%): R$ {ir:.2f}')
-print(f'- INSS (8%): R$ {inss:.2f}')
-print(f'- Sindicato (5%): R$ {sindicato:.2f}')
-print()
-print(f'Seu salário liquido é de R$ {salario_liquido:.2f}')
+print(f'+ Salário Bruto     R$ {salario_bruto:.2f}''\n'
+      f'- IR (11%):         R$ {ir:.2f}''\n'
+      f'- INSS (8%):        R$ {inss:.2f}''\n'
+      f'- Sindicato (5%):   R$ {sindicato:.2f}''\n'
+      f'+ Salário Líquido   R$ {salario_liquido:.2f}')
 
 print()
 print('########## FIM ##########')
