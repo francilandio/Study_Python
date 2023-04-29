@@ -8,7 +8,7 @@ velocidade = int(input('Qual a velocidade da sua internet? '))
 
 tempo = (tamanho_arquivo / (velocidade / 8)) / 60
 
-print(f'Para realizar o download de um arquivo de {tamanho_arquivo} MB, a uma velocidade de {velocidade} Mbps levará {tempo:.0f} minutos.')
+print(f'Para realizar o download de um arquivo de {tamanho_arquivo} MB, a uma velocidade de {velocidade} Mbps levará {tempo:.0f} minuto(s).')
 
 print()
 print('########## TEMPO DE DOWNLOAD ##########')
